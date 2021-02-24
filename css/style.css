@@ -1,0 +1,164 @@
+body {
+    background: linear-gradient(140deg, #8cc6ec, #9599e2);
+    font-family: Roboto, Arial, sans-serif;
+    /*linear-gradient(to bottom right, red 60%, blue);*/
+}
+
+form {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.section {
+    width: 350px;
+    height: 490px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+#infoGeneral {
+    background: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#detailContact {
+    background: #4935d4;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#infoGeneral input::placeholder, #infoGeneral select, #infoGeneral input {
+    color: gray;
+}
+
+#detailContact input::placeholder, #detailContact select, #detailContact input {
+    color: rgb(177, 177, 177);
+}
+
+#detailCont {
+    color: rgba(255, 255, 255, 255);
+}
+
+#infoGen {
+    color: #3d5d7c;
+}
+
+.entete {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="tel"], select {
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    outline: none;
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #8b8b8b;
+}
+
+input[type=radio] {
+    width: 13px;
+    height: 13px;
+    appearance: none;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type=radio]:checked {
+    border: 2px solid #4935d4;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 0 0 0.1em white;
+    outline: none;
+    transition: 0.2s all linear;
+}
+
+input:focus, select:focus {
+    outline: none;
+}
+
+#detailContact option {
+    background-color: #4935d4;
+}
+
+#idFirtName {
+    float: left;
+    width: 47%;
+}
+
+#idLastName {
+    float: right;
+    width: 47%;
+}
+
+#idBusiness {
+    float: left;
+    width: 55%;
+}
+
+#idEmployees {
+    float: right;
+    width: 40%;
+}
+
+#idZipCode {
+    float: left;
+    width: 25%;
+}
+
+#idPlace {
+    float: right;
+    width: 70%;
+}
+
+#idcode {
+    float: left;
+    width: 25%;
+}
+
+#idTel {
+    float: right;
+    width: 70%;
+}
+
+button {
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    padding: 10px;
+    width: 42%;
+    height: 45px;
+    cursor: pointer;
+}
+
+label {
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+}
+
+span {
+    margin-left: 35px;
+}
+
+.alignement {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form>
+        <div id="infoGeneral" class="section">
+
+            <p id="infoGen" class="entete">General Information</p>
+
+            <select id="idTitre">
+                <option hidden>Title</option>
+                <option value="Monsieur">Monsieur</option>
+                <option value="Madame">Madame</option>
+            </select>
+
+
+            <input type="text" placeholder="First Name" id="idFirtName">
+            <input type="text" placeholder="Last Name" id="idLastName">
+
+
+            <select id="idPosition">
+                <option hidden>Position</option>
+                <option value="Position1">Position1</option>
+                <option value="Position2">Position2</option>
+                <option value="Position3">Position3</option>
+                <option value="Position4">Position4</option>
+            </select>
+
+            <input type="text" placeholder="Company" id="idCompany">
+
+            <input type="text" placeholder="Business Arena" id="idBusiness">
+
+            <select id="idEmployees">
+                <option hidden>Employees</option>
+                <option value="vodacom">Vodacom</option>
+                <option value="airtel">Airtel</option>
+                <option value="orange">Orange</option>
+                <option value="africel">Africel</option>
+            </select>
+
+        </div>
+
+        <div id="detailContact" class="section">
+
+            <p id="detailCont" class="entete">Contact details</p>
+            <input type="text" placeholder="Street + Nr" id="idCity">
+            <input type="text" placeholder="Additional Information" id="idAddInfo">
+
+            <input type="text" placeholder="Zip Code" id="idZipCode">
+
+            <select id="idPlace" class="elementFormulaire">
+                <option hidden>Place</option>
+                <option value="Place1">Place1</option>
+                <option value="Place2">Place2</option>
+                <option value="Place3">Place3</option>
+                <option value="Place4">Place4</option>
+                <option value="Place5">Place5</option>
+            </select>
+
+
+
+            <select id="idCountry" class="elementFormulaire">
+                <option hidden>Country</option>
+                <option value="RDC">République Démocratique du Congo</option>
+                <option value="France">France</option>
+                <option value="Cameroun">Cameroun</option>
+                <option value="Tchad">Tchad</option>
+                <option value="RCA">République centrafricaine</option>
+                <option value="Gabon">Gabon</option>
+                <option value="République du Congo">République du Congo</option>
+                <option value="Madagascar">Madagascar</option>
+                <option value="RSA">Afrique du Sud</option>
+                <option value="Seychelles">Seychelles</option>
+                <option value="Comores">Comores</option>
+                <option value="Togo">Togo</option>
+                <option value="Côte d’Ivoire">Côte d’Ivoire</option>
+            </select>
+
+
+            <input type="text" placeholder="Code +" id="idcode">
+            <input type="tel" placeholder="Phone Number" id="idTel">
+
+            <input type="email" placeholder="Your Email" id="idEmail">
+            <br><br>
+            <input type="radio" id="idContrat">
+            <label for="idContrat">I do accept the <a href="#"><strong>Terms and conditions</strong></a><br><span> of your
+                    site</span></label>
+            <br><br>
+            <button type="submit">Register Badge</button>
+
+        </div>
+    </form>
+</body>
+
+</html>
